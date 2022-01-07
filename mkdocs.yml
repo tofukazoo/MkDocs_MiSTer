@@ -1,26 +1,37 @@
 site_name: MiSTer FPGA Documentation
+site_url: https://docs.misterfpga.org/
+site_author: Kevin Coleman
+site_description: >-
+  MiSTer FPGA is an open project that aims to recreate various
+  classic computers, game consoles, and arcade machines, using
+  modern hardware.
+
+repo_name: birdybro/MkDocs_MiSTer
+repo_url: https://github.com/birdybro/MkDocs_MiSTer
+
+copyright: Copyright &copy; 2022 MiSTer FPGA
 
 theme:
   name: material
   favicon: assets/favicon.ico
-  logo: assets/logo_vector.svg
+  logo: assets/favicon.ico
   font:
     text: Noto Sans JP
     code: Source Code Pro
   features:
-  # Use navigation tabs at the top
-    - navigation.tabs
   # Highlight search terms when user searches for things
     - search.highlight
   # Offer most likely search result as a suggestion
     - search.suggest
-  # Future use for announcement hook to 
-  #custom_dir: overrides
+  # Future use for announcement hook to put latest news here, like latest core updates, etc...
+  custom_dir: overrides
   
 plugins:
 # Explicitly call out search ahead of time, because if you use other plugins this has to be done.
   - search:
       lang: en
+  - minify:
+      minify_html: true
 
 extra:
 # Make logo click go to website, subject to change
@@ -36,5 +47,5 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
-extra_javascript:
-  - javascripts/extra.js
+#extra_javascript:
+#  - javascripts/extra.js
