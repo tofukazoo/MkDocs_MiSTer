@@ -17,6 +17,10 @@ Any externally facing links need to use "open link in new tab" by default, so as
 
 `[DE10-Nano](http://de10-nano.terasic.com){target=_blank}`
 
+Make images links when it may benefit the user. Here is the syntax:
+
+`[![Download Mr. Fusion](dl-mr-fusion.png)](https://github.com/MiSTer-devel/mr-fusion/releases){target=_blank}`
+
 ## Prerequisites and deploying a local environment
 
 * Python 3
