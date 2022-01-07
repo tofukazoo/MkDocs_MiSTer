@@ -3,11 +3,21 @@ site_name: MiSTer FPGA Documentation
 theme:
   name: material
   favicon: assets/favicon.ico
+  logo: assets/logo_vector.svg
+  font:
+    text: Noto Sans JP
+    code: Source Code Pro
+  features:
+    - navigation.tabs
+    - search.highlight
+    - search.suggest
   
+plugins:
+  - search:
+      lang: en
+
 extra:
   homepage: https://misterfpga.org
-
-
 
 extra_css:
   - stylesheets/extra.css
