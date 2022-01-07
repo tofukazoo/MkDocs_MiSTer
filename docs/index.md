@@ -1,71 +1,13 @@
 # Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![MiSTer FPGA Logo](assets/logo_small.png)
 
-## Commands
+## What is MiSTer FPGA?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+**MiSTer** is an open source project that aims to recreate various classic computers, game consoles and arcade machines, using modern hardware. It allows software and game images to run as they would on original hardware, using peripherals such as mice, keyboards, joysticks and other game controllers.
 
-## Project layout
+MiSTer utilizes a readily available **FPGA** board called the '**[DE10-Nano](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#1-de10-nano-board)**', which connects to your TV or monitor via **HDMI** video out. It can additionally be expanded with various **[add-ons](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Addons-Overview)** (such as a USB hub, SDRAM, audio and VGA out).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The MiSTer software/OS itself is **[freely downloadable](setup/mr-fusion.md)**, and anyone is welcome to contribute to its development. In fact MiSTer relies on the contributions of many developers for the various systems (known as '**cores**') it replicates. 
 
-```sv
-//-----------------------------------------------------
-// Design Name : encoder_using_if
-// File Name   : encoder_using_if.sv
-// Function    : Encoder using If
-// Coder�     : Deepak Kumar Tala
-//-----------------------------------------------------
-module encoder_using_if(
-output reg  [3:0]  binary_out , //  4 bit binary Output
-input  wire [15:0] encoder_in , //  16-bit Input
-input  wire        enable       //  Enable for the encoder
-); 
-//--------------Code Starts Here----------------------- 
-always_comb
- begin 
-   binary_out = 0; 
-   if (enable) begin
-     if (encoder_in == 16'h0002) begin
-      binary_out = 1;
-     end  if (encoder_in == 16'h0004) begin 
-      binary_out = 2; 
-     end  if (encoder_in == 16'h0008) begin 
-      binary_out = 3; 
-     end  if (encoder_in == 16'h0010) begin 
-      binary_out = 4; 
-     end  if (encoder_in == 16'h0020) begin 
-      binary_out = 5; 
-     end  if (encoder_in == 16'h0040) begin 
-      binary_out = 6; 
-     end  if (encoder_in == 16'h0080) begin 
-      binary_out = 7; 
-     end  if (encoder_in == 16'h0100) begin 
-      binary_out = 8; 
-     end  if (encoder_in == 16'h0200) begin 
-      binary_out = 9; 
-     end if (encoder_in == 16'h0400) begin 
-      binary_out = 10; 
-     end  if (encoder_in == 16'h0800) begin 
-      binary_out = 11; 
-     end  if (encoder_in == 16'h1000) begin
-      binary_out = 12; 
-     end  if (encoder_in == 16'h2000) begin 
-      binary_out = 13;
-     end  if (encoder_in == 16'h4000) begin 
-      binary_out = 14; 
-     end if (encoder_in == 16'h8000) begin 
-      binary_out = 15; 
-     end
-  end
-end
-      
-endmodule
-```
+The MiSTer project is currently under active development, with new cores, features, and bug-fixes appearing on a regular basis.
