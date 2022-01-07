@@ -8,16 +8,30 @@ theme:
     text: Noto Sans JP
     code: Source Code Pro
   features:
+  # Use navigation tabs at the top
     - navigation.tabs
+  # Highlight search terms when user searches for things
     - search.highlight
+  # Offer most likely search result as a suggestion
     - search.suggest
+  # Future use for announcement hook to 
+  #custom_dir: overrides
   
 plugins:
+# Explicitly call out search ahead of time, because if you use other plugins this has to be done.
   - search:
       lang: en
 
 extra:
-  homepage: https://misterfpga.org
+# Make logo click go to website, subject to change
+  homepage: https://docs.misterfpga.org
+# Placeholder for analytics configuration, modify value and uncomment when ready
+# Google Analytics 4
+  #provider: google
+  #property: G-XXXXXXXXXX
+# Universal Analytics (soon to be deprecated, please migrate if you haven't already)
+  #provider: google
+  #property: UA-XXXXXXXX-X
 
 extra_css:
   - stylesheets/extra.css
