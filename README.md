@@ -7,8 +7,6 @@ Try your best to follow along with the general structure of folders (categories)
 
 It's very easy to contribute, just fork this repo, make your changes (such as making a new markdown file or editing one) and follow normal markdown syntax, commit changes to your fork, submit your pull request, and we will review it to see if it's suitable to merge.
 
-To temporarily view your changes as a test locally --> https://www.mkdocs.org/user-guide/deploying-your-docs/#local-files
-
 ## Style guide
 
 Any internally facing links must be relative links. `./docs` is the implicit root folder, so if you want to link to the assets folder you just need to use `/assets/` and type in the file that you want to link to in there.
