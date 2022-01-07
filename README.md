@@ -7,9 +7,19 @@ Try your best to follow along with the general structure of folders (categories)
 
 It's very easy to contribute, just fork this repo, make your changes (such as making a new markdown file or editing one) and follow normal markdown syntax, commit changes to your fork, submit your pull request, and we will review it to see if it's suitable to merge.
 
-**IMPORTANT!** Always use relative URLS when possible! Anything in this repo should be linked using relative URLS! e.g. `/assets/logo_small.png` and NOT this `https://raw.githubusercontent.com/birdybro/MkDocs_MiSTer/main/docs/assets/logo_small.png`.
-
 To temporarily view your changes as a test locally --> https://www.mkdocs.org/user-guide/deploying-your-docs/#local-files
+
+## Style guide
+
+Any internally facing links must be relative links. `./docs` is the implicit root folder, so if you want to link to the assets folder you just need to use `/assets/` and type in the file that you want to link to in there.
+
+Any externally facing links need to use "open link in new tab" by default, so as not to confuse the user. This is enabled by the `- attr_list` extension. To do so just add `{target=_blank}` to the end of your link. e.g.:
+
+`[DE10-Nano](http://de10-nano.terasic.com){target=_blank}`
+
+Make images links when it may benefit the user. Here is the syntax:
+
+`[![Download Mr. Fusion](dl-mr-fusion.png)](https://github.com/MiSTer-devel/mr-fusion/releases){target=_blank}`
 
 ## Prerequisites and deploying a local environment
 
