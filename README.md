@@ -10,3 +10,27 @@ It's very easy to contribute, just fork this repo, make your changes (such as ma
 **IMPORTANT!** Always use relative URLS when possible! Anything in this repo should be linked using relative URLS! e.g. `/assets/logo_small.png` and NOT this `https://raw.githubusercontent.com/birdybro/MkDocs_MiSTer/main/docs/assets/logo_small.png`.
 
 To temporarily view your changes as a test locally --> https://www.mkdocs.org/user-guide/deploying-your-docs/#local-files
+
+## Prerequisites and deploying a local environment
+
+* Python 3
+* Pip
+
+Make sure you update [python 3](https://www.python.org/downloads/) and [update pip](https://pip.pypa.io/en/stable/installation/).
+
+`cd` into the root folder of this repo
+
+```
+pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-minify-plugin
+pip install mkdocs-redirects
+```
+
+Deploy to local server from that root folder:
+
+```
+mkdocs serve
+```
+
+And it should give you a weburl in the terminal to go to, http://127.0.0.1:8000
