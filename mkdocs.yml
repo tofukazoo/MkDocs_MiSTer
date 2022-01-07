@@ -51,29 +51,37 @@ extra:
     
 nav:
   - Home: index.md
-  - Why MiSTer FPGA?: why-mister.md
-  - First-time Setup: setup/first-setup.md
-  # - Everyday Basics:
-  # - Cores on MiSTer:
-  #   - Console:
-  #     - SNES:
-  #   - Handhelds:
-  #     - WonderSwan:
-  #   - Arcade:
-  #     - 0-9:
-  #       - -1942:
-  #       - -1943:
-  #     - A:
-  #       - Arkanoid:
-  #       - Asteroids:
-  #       - Asteroids Deluxe:
-  #       - Astrocade:
-  #       - Atari Tetris:
-  #       - Bagman:
-  #       - Berzerk:
-  #     - B:
-  #   - Computer:
-  #     - ao486:
+  - First-time Setup:
+    - Software Installation with Mr. Fusion: setup/software.md
+    - Setting up WiFi, Bluetooth, Keyboard: setup/hardware.md
+    - Hotkey Reference: setup/hotkey.md
+  - Everyday Basics:
+    - Keyboards and Controllers: basics/input.md
+    - Game Storage and Organizing basics/games.md
+    - Personalizing Your Mister: basics/config.md
+
+  - Cores:
+    - What Is a Core?: cores/what.md
+    - MiSTer Highlights:
+      - Laser 310: cores/highlights/laser.md
+      - Jupiter Ace cores/highlights/ace.md
+      - Atari 7800 cores/highlights/atari.md
+    - Consoles:
+    - Arcade:
+    - WIP:
+
+  - Tweaking and Tips:
+    - Advanced Networking:
+      - Setting Up SSH, FTP, and NAS: advanced/network.md
+      - Computer Networking: advanced/computer.md
+    - CRT Considerations: advanced/crt.md
+    - Global INI Options Reference: advanced/global.md
+    - Scanlines and Shadowmasks: advanced/video.md
+    - Cheat Engine: advanced/cheats.md
+
+  - MiSTer Developer Reference
+    - Good Luck: developer/goodluck.md
+
 
 markdown_extensions:
   - pymdownx.highlight:
