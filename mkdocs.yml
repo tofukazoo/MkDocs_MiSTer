@@ -2,7 +2,13 @@ site_name: MiSTer FPGA Documentation
 
 theme:
   name: material
+  favicon: assets/favicon.ico
   
+extra:
+  homepage: https://misterfpga.org
+
+
+
 extra_css:
   - stylesheets/extra.css
 
