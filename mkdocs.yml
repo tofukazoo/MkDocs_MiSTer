@@ -57,19 +57,14 @@ nav:
     - Hotkey Reference: setup/hotkey.md
   - Everyday Basics:
     - Keyboards and Controllers: basics/input.md
-    - Game Storage and Organizing basics/games.md
+    - Game Storage and Organizing: basics/games.md
     - Personalizing Your Mister: basics/config.md
-
   - Cores:
     - What Is a Core?: cores/what.md
-    - MiSTer Highlights:
+    - Core Highlights:
       - Laser 310: cores/highlights/laser.md
       - Jupiter Ace cores/highlights/ace.md
       - Atari 7800 cores/highlights/atari.md
-    - Consoles:
-    - Arcade:
-    - WIP:
-
   - Tweaking and Tips:
     - Advanced Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
@@ -78,10 +73,8 @@ nav:
     - Global INI Options Reference: advanced/global.md
     - Scanlines and Shadowmasks: advanced/video.md
     - Cheat Engine: advanced/cheats.md
-
-  - MiSTer Developer Reference
+  - MiSTer Developer Reference:
     - Good Luck: developer/goodluck.md
-
 
 markdown_extensions:
   - pymdownx.highlight:
