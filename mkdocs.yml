@@ -39,6 +39,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
 
 extra:
 # Make logo click go to website, subject to change
