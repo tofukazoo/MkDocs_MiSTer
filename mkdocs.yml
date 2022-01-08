@@ -34,6 +34,23 @@ plugins:
   - minify:
       minify_html: true
 
+# Customization
+extra:
+  homepage: https://docs.misterfpga.org
+# Placeholder for analytics configuration, modify value and uncomment when ready
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: twitter
+      link: https://twitter.com/MiSTerFPGABot/
+    - icon: discord
+      link: https://discord.com/invite/misterfpga/
+    - icon: github
+      link: https://github.com/MiSTer-devel/
+    
+    
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -41,17 +58,6 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - attr_list
-
-extra:
-# Make logo click go to website, subject to change
-  homepage: https://docs.misterfpga.org
-# Placeholder for analytics configuration, modify value and uncomment when ready
-# Google Analytics 4
-  #provider: google
-  #property: G-XXXXXXXXXX
-# Universal Analytics (soon to be deprecated, please migrate if you haven't already)
-  #provider: google
-  #property: UA-XXXXXXXX-X
 
 extra_css:
   - stylesheets/extra.css
