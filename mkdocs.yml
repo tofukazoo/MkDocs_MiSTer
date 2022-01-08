@@ -51,9 +51,29 @@ extra:
     
 nav:
   - Home: index.md
-  - Getting Started:
-    - Initial Setup: setup/first-setup.md
-  
+  - Why MiSTer FPGA?: why-mister.md
+  - First-time Setup: setup/first-setup.md
+  # - Everyday Basics:
+  # - Cores on MiSTer:
+  #   - Console:
+  #     - SNES:
+  #   - Handhelds:
+  #     - WonderSwan:
+  #   - Arcade:
+  #     - 0-9:
+  #       - -1942:
+  #       - -1943:
+  #     - A:
+  #       - Arkanoid:
+  #       - Asteroids:
+  #       - Asteroids Deluxe:
+  #       - Astrocade:
+  #       - Atari Tetris:
+  #       - Bagman:
+  #       - Berzerk:
+  #     - B:
+  #   - Computer:
+  #     - ao486:
 
 markdown_extensions:
   - pymdownx.highlight:

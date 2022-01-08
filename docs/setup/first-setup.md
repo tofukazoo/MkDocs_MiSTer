@@ -1,4 +1,4 @@
-# Initial Setup
+# First-Time Setup
 
 This guide will help you setup your MiSTer for the first time. We will help you setup your sdcard, then update your MiSTer system, and then show you how to run a game in one of the console cores.
 
