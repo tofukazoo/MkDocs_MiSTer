@@ -74,7 +74,7 @@ nav:
       - Computer Cores: advanced/computer.md
     - Video:
       - CRT Users: advanced/crt.md
-      - Video Filters: advances/video.md
+      - Video Filters: advanced/video.md
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
   - MiSTer Developer Reference:
