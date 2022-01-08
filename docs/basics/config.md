@@ -1,4 +1,4 @@
-Eye candy introduction, audio.
+Eye candy and audio.
 
 * Scaler setup: latency and resolution choices.
 * Scanlines and shadowmasks
