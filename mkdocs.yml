@@ -65,16 +65,19 @@ nav:
       - Laser 310: cores/highlights/laser.md
       - Jupiter Ace: cores/highlights/ace.md
       - Atari 7800: cores/highlights/atari.md
-  - Tweaking and Tips:
-    - Advanced Networking:
+    - Arcade Cores: cores/arcade.md
+    - Console Cores: cores/consoles.md
+  - Tweaking and Advanced Configuration:
+    - Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
-      - Computer Networking: advanced/computer.md
-    - CRT Considerations: advanced/crt.md
-    - Global INI Options Reference: advanced/global.md
-    - Scanlines and Shadowmasks: advanced/video.md
+      - Computer Cores: advanced/computer.md
+    - Video:
+      - CRT Users: advanced/crt.md
+      - Video Filters: advances/video.md
+    - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
   - MiSTer Developer Reference:
-    - Good Luck: developer/goodluck.md
+    - Good Luck!: developer/goodluck.md
 
 markdown_extensions:
   - pymdownx.highlight:
