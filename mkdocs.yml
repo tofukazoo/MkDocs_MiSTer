@@ -51,11 +51,12 @@ extra:
     
 nav:
   - Home: index.md
-  - First-time Setup:
-    - Software Installation with Mr. Fusion: setup/software.md
+  - First-time Installation:
+    - Meet Mr. Fusion: setup/software.md
     - Setting up WiFi, Bluetooth, Keyboard: setup/hardware.md
+    - Running the Updater: setup/updater.md
     - Hotkey Reference: setup/hotkey.md
-  - Everyday Basics:
+  - Setting Up:
     - Keyboards and Controllers: basics/input.md
     - Game Storage and Organizing: basics/games.md
     - Personalizing Your Mister: basics/config.md
