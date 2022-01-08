@@ -63,8 +63,8 @@ nav:
     - What Is a Core?: cores/what.md
     - Core Highlights:
       - Laser 310: cores/highlights/laser.md
-      - Jupiter Ace cores/highlights/ace.md
-      - Atari 7800 cores/highlights/atari.md
+      - Jupiter Ace: cores/highlights/ace.md
+      - Atari 7800: cores/highlights/atari.md
   - Tweaking and Tips:
     - Advanced Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
