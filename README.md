@@ -1,6 +1,6 @@
 # MkDocs_MiSTer
 
-Rebuild, robot!
+Rebuild, robot! Please.
 
 A work-in-progress replacement for the MiSTer FPGA Github Wiki.
 
