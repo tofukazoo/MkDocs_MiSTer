@@ -1,1 +1,1 @@
-Hardware setup
+Hardware setup.
