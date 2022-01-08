@@ -1,5 +1,3 @@
-# Introduction
-
 ![MiSTer FPGA Logo](assets/logo_small.png)
 
 ## What is MiSTer FPGA?

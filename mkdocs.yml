@@ -49,7 +49,11 @@ extra:
     - icon: github
       link: https://github.com/MiSTer-devel/
     
-    
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Initial Setup: setup/first-setup.md
+  
 
 markdown_extensions:
   - pymdownx.highlight:
