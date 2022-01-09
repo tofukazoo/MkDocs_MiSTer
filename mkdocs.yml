@@ -7,8 +7,8 @@ site_description: >-
   modern hardware.
 
 repo_name: MkDocs_MiSTer
-repo_url: https://github.com/birdybro/MkDocs_MiSTer/
-edit_uri: edit/main/docs/
+repo_url: https://github.com/tofukazoo/MkDocs_MiSTer/
+edit_uri: edit/main2/docs/
 
 copyright: Copyright &copy; 2022 MiSTer FPGA
 
@@ -51,29 +51,36 @@ extra:
     
 nav:
   - Home: index.md
-  - Why MiSTer FPGA?: why-mister.md
-  - First-time Setup: setup/first-setup.md
-  # - Everyday Basics:
-  # - Cores on MiSTer:
-  #   - Console:
-  #     - SNES:
-  #   - Handhelds:
-  #     - WonderSwan:
-  #   - Arcade:
-  #     - 0-9:
-  #       - -1942:
-  #       - -1943:
-  #     - A:
-  #       - Arkanoid:
-  #       - Asteroids:
-  #       - Asteroids Deluxe:
-  #       - Astrocade:
-  #       - Atari Tetris:
-  #       - Bagman:
-  #       - Berzerk:
-  #     - B:
-  #   - Computer:
-  #     - ao486:
+  - First-time Installation:
+    - Meet Mr. Fusion: setup/software.md
+    - Setting up WiFi, Bluetooth, Keyboard: setup/hardware.md
+    - Running the Updater: setup/updater.md
+    - Hotkey Reference: setup/hotkey.md
+  - Setting Up:
+    - Keyboards and Controllers: basics/input.md
+    - Game Storage and Organizing: basics/games.md
+    - Personalizing Your Mister: 
+      - Video Configuratiion: basics/video.md
+      - Audio Fun: basics/audio.md
+  - Cores:
+    - What Is a Core?: cores/what.md
+    - Core Highlights:
+      - Laser 310: cores/highlights/laser.md
+      - Jupiter Ace: cores/highlights/ace.md
+      - Atari 7800: cores/highlights/atari.md
+    - Arcade Cores: cores/arcade.md
+    - Console Cores: cores/consoles.md
+  - Tweaking and Advanced Configuration:
+    - Networking:
+      - Setting Up SSH, FTP, and NAS: advanced/network.md
+      - Computer Cores: advanced/computer.md
+    - Video:
+      - Video Filters: advanced/video.md
+      - Using Your CRT With MiSTer: advanced/crt.md
+    - Global INI Settings: advanced/global.md
+    - Cheat Engine: advanced/cheats.md
+  - MiSTer Developer Reference:
+    - Good Luck!: developer/goodluck.md
 
 markdown_extensions:
   - pymdownx.highlight:
