@@ -73,7 +73,7 @@ nav:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
       - Computer Cores: advanced/computer.md
     - Video:
-      - CRT Users: advanced/crt.md
+      - Using Your CRT With MiSTer: advanced/crt.md
       - Video Filters: advanced/video.md
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
