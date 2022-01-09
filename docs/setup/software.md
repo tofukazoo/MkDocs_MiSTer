@@ -46,4 +46,12 @@ Next we just need to carefully insert our MicroSD card into the DE10-Nano (**NOT
 
 Now turn on your DE10-Nano.
 
-We will wait up to a few minutes for the Mr. Fusion installer to complete. Be patient, or else you may have to start all over again. When the MiSTer On Screen Display with fuzzy static behind it appears, that means you have successfully installed the MiSTer software/OS onto your MicroSD. 
+We will wait up to a few minutes for the Mr. Fusion installer to complete. Be patient, or else you may have to start all over again. 
+
+![Running Mr. Fusion](img/run-mr-fusion.png)
+
+When the MiSTer On Screen Display with fuzzy static behind it appears, that means you have successfully installed the MiSTer software/OS onto your MicroSD. 
+
+![Fuzzy Static Displaying Away!](img/static-menu.png)
+
+Check out the next tutorials in the side bar!
