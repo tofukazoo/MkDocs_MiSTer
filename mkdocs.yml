@@ -17,7 +17,7 @@ theme:
   favicon: assets/favicon.ico
   logo: assets/mister_kun_bw.svg
   font:
-    text: Open Sans
+    text: Roboto
     code: Source Code Pro
   features:
   # Highlight search terms when user searches for things
