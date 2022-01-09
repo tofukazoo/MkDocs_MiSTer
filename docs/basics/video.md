@@ -1,2 +1,2 @@
-Scaler setup: latency and resolution
-Scanlines and shadowmasks
+* Scaler setup: latency and resolution
+* Scanlines and shadowmasks
