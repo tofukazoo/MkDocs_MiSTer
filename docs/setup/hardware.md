@@ -16,12 +16,24 @@ Your results may vary as there may be new hardware revisions of these adapters w
 
 ## Setup wifi with a script
 
-Navigate to the scripts menu using the on screen display (OSD). Select the "wifi" script and run it. The script will first search for the available WiFi networks that it can find and then display a list of them for you to pick from. Select your WiFi network's SSID (the name of your WiFi). Then it will ask you for a password, type that password in and press enter.
+It's easy to connect to WiFi using the wifi.sh script provided with the Mr. Fusion image:
 
-It should connect and ask you to press any key to continue. At the top of the main menu you will see a little wifi icon which indicates you have connected. This setting should be saved and it will automatically connect so long as the adapter is plugged in and your MiSTer is within range of your WiFi network.
+1. Navigate to the scripts menu using the on screen display (OSD). 
+2. Select the "wifi" script and run it.
+3. Select your WiFi network's SSID (the name of your WiFi). 
+4. Type your WiFi password in and press enter.
+5. It should connect and ask you to press any key to continue. 
+
+At the top of the main menu you will see a little wifi icon which indicates you have connected. This setting should be saved and it will automatically connect so long as the adapter is plugged in and your MiSTer is within range of your WiFi network.
 
 ## The manual way to setup wifi
 
-In case the script isn't working for you, you can try to manually setup Wifi. This is a slightly more advanced user method so feel free to ask for help from the community before attempting this method. To manually setup WiFi without the script edit the file `/media/fat/linux/_wpa_supplicant.conf` with a text editor that supports Unix/Linux line endings. Replace `put_your_SSID_here` with your Wifi Network's SSID, and replace `put_your_password_here` with your WiFi password. Next change the country code [to the one that matches your country](https://www.arubanetworks.com/techdocs/InstantWenger_Mobile/Advanced/Content/Instant%20User%20Guide%20-%20volumes/Country_Codes_List.htm){target=_blank}. Then rename `_wpa_supplicant.conf` to `wpa_supplicant.conf` and reboot the mister.
+In case the script isn't working for you, you can try to manually setup Wifi. This is a slightly more advanced user method so feel free to ask for help from the community before attempting this method. To manually setup WiFi without the script:
+
+1. Edit the file `/media/fat/linux/_wpa_supplicant.conf` with a text editor that supports Unix/Linux line endings.
+2. Replace `put_your_SSID_here` with your Wifi Network's SSID, and replace `put_your_password_here` with your WiFi password. 
+3. Change the country code [to the one that matches your country](https://www.arubanetworks.com/techdocs/InstantWenger_Mobile/Advanced/Content/Instant%20User%20Guide%20-%20volumes/Country_Codes_List.htm){target=_blank}. 
+4. Rename `_wpa_supplicant.conf` to `wpa_supplicant.conf`
+5. Reboot the MiSTer.
 
 After the MiSTer reboots you should see the wifi icon at the top of the Main Menu's OSD.
