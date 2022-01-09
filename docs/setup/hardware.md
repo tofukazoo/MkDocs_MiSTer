@@ -36,4 +36,4 @@ In case the script isn't working for you, you can try to manually setup Wifi. Th
 4. Rename `_wpa_supplicant.conf` to `wpa_supplicant.conf`
 5. Reboot the MiSTer.
 
-After the MiSTer reboots you should see the wifi icon at the top of the Main Menu's OSD.
+After the MiSTer reboots you should see the wifi icon at the top of the Main Menu's OSD. This may take quite awhile so be patient, the MiSTer is not super fast at connecting to your WiFi network, it's a simple device with simple means. :)
