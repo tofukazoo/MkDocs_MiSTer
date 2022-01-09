@@ -75,8 +75,8 @@ nav:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
       - Computer Cores: advanced/computer.md
     - Video:
-      - Using Your CRT With MiSTer: advanced/crt.md
       - Video Filters: advanced/video.md
+      - Using Your CRT With MiSTer: advanced/crt.md
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
   - MiSTer Developer Reference:
