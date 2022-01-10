@@ -1,12 +1,12 @@
 * {
-  --md-default-fg-color: #282a36de;
-  --md-default-fg-color--light: #282a368a;
-  --md-default-fg-color--lighter: #282a3652;
-  --md-default-fg-color--lightest: #282a3612;
-  --md-default-bg-color: #fcfcfc;
-  --md-default-bg-color--light: #ffffffb3;
-  --md-default-bg-color--lighter: #ffffff4d;
-  --md-default-bg-color--lightest: #ffffff1f;
+  --md-default-fg-color: #f8f8f2de;
+  --md-default-fg-color--light: #f8f8f28a;
+  --md-default-fg-color--lighter: #f8f8f252;
+  --md-default-fg-color--lightest: #f8f8f212;
+  --md-default-bg-color: #282a36;
+  --md-default-bg-color--light: #282a36b3;
+  --md-default-bg-color--lighter: #282a364d;
+  --md-default-bg-color--lightest: #282a361f;
 
   --md-primary-fg-color: #514689;
   --md-primary-fg-color--light: #5146898a;
@@ -14,7 +14,7 @@
   --md-primary-fg-color--lightest: #51468912;
 
   --md-code-fg-color: #f8f8f2;
-  --md-code-bg-color: #282a36;
+  --md-code-bg-color: #44475a;
   --md-code-hl-color: #f1fa8c;
   --md-code-hl-number-color: #bd93f9;
   --md-code-hl-special-color: #db1457;
