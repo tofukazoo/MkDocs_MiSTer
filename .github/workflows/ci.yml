@@ -34,7 +34,7 @@ jobs:
         env:
           MKDOCS_INSIDER: ${{ secrets.MKDOCS_INSIDER }}
         run: |
-          git clone --depth 1 https://${MKDOCS_INSIDER}@github.com/squidfunk/mkdocs-material-insiders.git
+          git clone --depth 1 "https://${MKDOCS_INSIDER}@github.com/squidfunk/mkdocs-material-insiders.git"
           pip install mkdocs-material-insiders
 
       - name: Deploy Documentation
