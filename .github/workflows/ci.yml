@@ -4,9 +4,6 @@ on:
     branches:
       - main
 
-env:
-  PYTHON_VERSION: 3.x
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -18,7 +15,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          python-version: 3.x
 
       - name: Install Python Dependencies
         run: |
@@ -33,4 +30,3 @@ jobs:
       - name: Deploy Documentation
         run: |
           mkdocs gh-deploy --force
-          mkdocs --version
