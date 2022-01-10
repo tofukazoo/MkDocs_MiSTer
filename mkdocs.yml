@@ -89,6 +89,7 @@ nav:
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
   - MiSTer Developer Reference:
+    - Core Configuration String: developer/conf_str.md
     - Good Luck!: developer/goodluck.md
 
 markdown_extensions:
