@@ -53,6 +53,7 @@ nav:
   - Home: index.md
   - First-time Installation:
     - Meet Mr. Fusion: setup/software.md
+    - Keyboard and Gamepads: setup/controls.md
     - Connect to WiFi: setup/wifi.md
     - Using Bluetooth: setup/bluetooth.md
     - Running the Updater: setup/updater.md
