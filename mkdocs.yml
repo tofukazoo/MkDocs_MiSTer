@@ -26,8 +26,6 @@ theme:
     - search.suggest
   # Update url with the active anchor as highlighted in ToC
     - navigation.tracking
-  # Make left sidebar nav groups default to expanded
-    - navigation.expand
   # Future use for announcement hook to put latest news here, like latest core updates, etc...
   custom_dir: overrides
   
@@ -57,6 +55,7 @@ extra:
     
 nav:
   - Home: index.md
+  - Why MiSTer?: why-mister.md
   - First-time Installation:
     - Meet Mr. Fusion: setup/software.md
     - Running the Updater: setup/updater.md
