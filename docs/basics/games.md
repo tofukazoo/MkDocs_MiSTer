@@ -11,3 +11,6 @@ How to play games.
 
 ### Cheats
 ![type:video](videos/cheats.mp4)
+
+### savestates
+![type:video](videos/savestates.mp4)
