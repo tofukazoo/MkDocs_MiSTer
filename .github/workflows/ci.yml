@@ -31,9 +31,9 @@ jobs:
         if: github.event.repository.fork == false
         env:
           GH_TOKEN: ${{ secrets.MKDOCS_INSIDER }}
-          run: |
-            git clone --depth 1 https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-            pip install -e mkdocs-material-insiders          
+        run: |
+          git clone --depth 1 https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+          pip install -e mkdocs-material-insiders          
 
       - name: Deploy Documentation
         run: |
