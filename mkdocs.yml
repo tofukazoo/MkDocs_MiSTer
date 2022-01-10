@@ -24,6 +24,10 @@ theme:
     - search.highlight
   # Offer most likely search result as a suggestion
     - search.suggest
+  # Update url with the active anchor as highlighted in ToC
+    - navigation.tracking
+  # Make left sidebar nav groups default to expanded
+    - navigation.expand
   # Future use for announcement hook to put latest news here, like latest core updates, etc...
   custom_dir: overrides
   
