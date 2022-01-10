@@ -35,6 +35,7 @@ plugins:
       minify_html: true
   - mkdocs-video
   - git-revision-date-localized
+  - git-authors
 
 # Customization
 extra:
