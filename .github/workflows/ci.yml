@@ -32,9 +32,9 @@ jobs:
       - name: Install Material for MkDocs Insider build
         if: github.event.repository.fork == false
         env:
-          MKDOCS_INSIDER: ${{ secrets.MKDOCS_INSIDER }}
+          INSIDER: ${{ secrets.INSIDER }}
         run: |
-          git clone --depth 1 "https://${MKDOCS_INSIDER}@github.com/squidfunk/mkdocs-material-insiders.git"
+          git clone --depth 1 ${INSIDER}
           pip install mkdocs-material-insiders
 
       - name: Deploy Documentation
