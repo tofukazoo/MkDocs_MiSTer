@@ -1,0 +1,10 @@
+###### Requirements without Version Specifiers ######
+
+mkdocs
+mkdocs-material
+mkdocs-minify-plugin
+mkdocs-redirects
+mkdocs-video
+mkdocs-git-revision-date-localized-plugin
+
+###### Requirements with Version Specifiers ######
