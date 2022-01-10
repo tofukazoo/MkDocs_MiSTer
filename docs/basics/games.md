@@ -6,11 +6,11 @@ How to play games.
 
 ## Including some videos as placeholder for now...
 
-### Autosave
+## Autosave
 ![type:video](videos/autosave.mp4)
 
-### Cheats
+## Cheats
 ![type:video](videos/cheats.mp4)
 
-### savestates
+## savestates
 ![type:video](videos/savestates.mp4)

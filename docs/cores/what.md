@@ -1,1 +1,7 @@
-What exactly is a core, anyway?
+In MiSTer terminology, a "core" is the current way the FPGA's logic is configured. It's configured as the "Menu" core when you power on the MiSTer for the first time. Then if you use the OSD and go to `_Console` and then select `NES`, it will configure the FPGA to be the "NES" core.
+
+The term "core" has been used by Hardware Description Language (HDL) developers in a way which refers to the things that are programmed onto the FPGA. So for instance, the MiSTer FPGA framework uses Intel's "Altera PLL Core". This is a chunk of logic that is portable which allows developers to hook up to the clock on the chip. There are HDMI cores, ethernet cores, serial data cores, and so on...
+
+## What happens when I load a core?
+
+Imagine every time you load a core you are connecting a different console, computer, or arcade system to your television. You select the Genesis core in the menu and load it, you have no plugged a Genesis into your television without all the hassle of wrestling with cables. That's the concept. What actually is happening is that `.rbf` file is reprogramming the FPGA chip to take on a different form. It used to contain the digital logic required to be an NES combined with the MiSTer FPGA core components, and it turned into a chip with the digital logic for the Genesis with the the MiSTer FPGA core components.

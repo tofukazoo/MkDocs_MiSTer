@@ -1,1 +1,1 @@
-test
+Define more advanced instructions for cheats here as opposed to the very simple explanation in basics/games.md

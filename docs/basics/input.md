@@ -4,5 +4,5 @@ Inputs setup.
 * Remapping keys.
 * Turbo.
 
-Lightgun mapped to mouse
+## Lightgun mapped to mouse
 ![type:video](videos/mouse-lightgun.mp4)

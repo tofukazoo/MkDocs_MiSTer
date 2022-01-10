@@ -1,1 +1,1 @@
-Arcade cores in table format? WIP and mature? TBD.
+Arcade cores in a list with links to the github page for the core

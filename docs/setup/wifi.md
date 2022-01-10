@@ -3,7 +3,7 @@ Wifi is totally optional and it's setup is fairly simple with the MiSTer. You wi
 
 ## Suggested WiFi Adapters
 
-You will require a USB WiFi Adapter to use this feature as there is no integrated WiFi on the DE10-Nano or the MiSTer Add-on boards. Not all models of wifi adapters are compatible, so try to stick with decent name brands. Many users have found that most ASUS, TP-Link, CanaKit, and Edimax wifi USB adapters work out of the box. Here's a few that have been reported to work:
+You will require a compatible USB WiFi Adapter to use this feature as there is no integrated WiFi on the DE10-Nano or the MiSTer Add-on boards. Not all models of wifi adapters are compatible, so try to stick with decent name brands. Many users have found that most small ASUS, TP-Link, CanaKit, and Edimax wifi USB adapters work out of the box. Here's a few that have been reported to work:
 
 * ASUS USB AC53 nano rev A1
 * TP-Link AC1300 Archer T3U or Nano AC600 Archer T2U
@@ -11,7 +11,7 @@ You will require a USB WiFi Adapter to use this feature as there is no integrate
 * Edimax EW-7612UAn v2 or EW-7811UN or EW-7822ULC
 * Netgear A6100 or A6150
 
-Your results may vary as there may be new hardware revisions of these adapters which are not currently supported.
+Your results may vary as there may be new hardware revisions of these adapters which are not currently supported. There are ways to compile your own drivers for your device but that is for advanced users. **INSERT LINK TO NEW DOC FOR THIS**
 
 ## Setup wifi with a script
 

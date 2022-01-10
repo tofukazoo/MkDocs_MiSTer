@@ -1,1 +1,3 @@
-Console cores in table format? Where does Neo Geo go? The eternal question.
+Console cores in a list with links to the github page for the core
+
+"Neo geo's a console, question answered." ~Rysha (paraphrasing telepathically)
