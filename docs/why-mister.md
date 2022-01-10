@@ -12,6 +12,6 @@ Audio output similarly outputs at 16-bits 48kHz by default with an option to cha
 
 The open source nature of the MiSTer project necessarily entails more developer engagement than any private company making FPGA cores hiring individual developers could hope to achieve. The powerful framework and system files maintained by Alexey Melnikov (also known as Sorgelig) makes it easier for core developers to focus on developing the logic of their core as opposed to focusing too much time on how to support controllers, video output, audio output, and all the other struggles that previous FPGA developers had to deal with.
 
-The users of the MiSTer get to enjoy the benefits of this developer-friendly framework in the form of frequent core updates and a large number of exciting features.
+The users of the MiSTer get to enjoy the benefits of this developer-friendly framework in the form of frequent core updates and a large number of exciting features that are available to all cores.
 
 
