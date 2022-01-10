@@ -6,19 +6,22 @@ on:
 
 jobs:
   deploy:
+    name: Build documentation
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v2
+      - name: Setup Python runtime
+        uses: actions/setup-python@v2.3.1
         with:
           python-version: 3.x
 
       - name: Install Python Dependencies
         run: |
+          pip install .
           pip install \
           mkdocs \
           mkdocs-material \
@@ -27,12 +30,13 @@ jobs:
           mkdocs-video \
           mkdocs-git-revision-date-localized-plugin
           
-      - name: Install Material for MkDocs Insiders build
+      - name: Install Material for MkDocs Insider build
         if: github.event.repository.fork == false
         env:
-          GH_TOKEN: ${{ secrets.MKDOCS_INSIDER }}
+          MKDOCS_INSIDER: ${{ secrets.MKDOCS_INSIDER }}
         run: |
-          pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+          git clone --depth 1 https://${MKDOCS_INSIDER}@github.com/squidfunk/mkdocs-material-insiders.git
+          pip install mkdocs-material-insiders
 
       - name: Deploy Documentation
         run: |
