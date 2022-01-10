@@ -34,6 +34,8 @@ pip install mkdocs
 pip install mkdocs-material
 pip install mkdocs-minify-plugin
 pip install mkdocs-redirects
+pip install mkdocs-video
+pip install mkdocs-git-revision-date-localized-plugin
 ```
 
 Deploy to local server from that root folder:
