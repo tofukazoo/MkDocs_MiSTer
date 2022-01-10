@@ -1,3 +1,0 @@
-# Why MiSTer FPGA?
-
-I SAID REBUILD ROBOT
