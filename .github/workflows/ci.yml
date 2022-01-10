@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Python runtime
-        uses: actions/setup-python@v2.3.1
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
 
@@ -28,14 +28,6 @@ jobs:
           mkdocs-redirects \
           mkdocs-video \
           mkdocs-git-revision-date-localized-plugin
-          
-      - name: Install Material for MkDocs Insider build
-        if: github.event.repository.fork == false
-        env:
-          INSIDER: ${{ secrets.INSIDER }}
-        run: |
-          git clone --depth 1 ${INSIDER}
-          pip install mkdocs-material-insiders
 
       - name: Deploy Documentation
         run: |
