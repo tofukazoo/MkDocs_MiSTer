@@ -26,6 +26,14 @@ jobs:
           mkdocs-redirects \
           mkdocs-video \
           mkdocs-git-revision-date-localized-plugin
+          
+      - name: Install Material for MkDocs Insiders build
+        if: github.event.repository.fork == false
+        env:
+          GH_TOKEN: ${{ secrets.MKDOCS_INSIDER }}
+        run: |
+          git clone --depth 1 https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+          pip install -e mkdocs-material-insiders          
 
       - name: Deploy Documentation
         run: |
