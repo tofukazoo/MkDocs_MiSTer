@@ -33,6 +33,7 @@ plugins:
       lang: en
   - minify:
       minify_html: true
+  - mkdocs-video
 
 # Customization
 extra:
@@ -60,21 +61,27 @@ nav:
     - Using Bluetooth: basics/bluetooth.md
     - Game Storage and Organizing: basics/games.md
     - Hotkey Reference: basics/hotkey.md
-    - Personalizing Your Mister: 
+    - Personalizing Your Mister:
       - Video Configuration: basics/video.md
       - Audio Fun: basics/audio.md
+      - MiSTer.ini Reference: basics/ini.md
   - Cores:
     - What Is a Core?: cores/what.md
     - Core Highlights:
+      - SNES: cores/highlights/snes.md
+      - NES: cores/highlights/nes.md
+      - Genesis: cores/highlights/genesis.md
+      - TurboGrafx-16: cores/highlights/tgfx16.md
       - Laser 310: cores/highlights/laser.md
       - Jupiter Ace: cores/highlights/ace.md
       - Atari 7800: cores/highlights/atari.md
     - Arcade Cores: cores/arcade.md
+    - Computer Cores: cores/computer.md
     - Console Cores: cores/consoles.md
   - Tweaking and Advanced Configuration:
     - Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
-      - Computer Cores: advanced/computer.md
+      - Computer Core Networking: advanced/computer.md
     - Video:
       - Video Filters: advanced/video.md
       - Using Your CRT With MiSTer: advanced/crt.md
