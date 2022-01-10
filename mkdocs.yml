@@ -53,16 +53,15 @@ nav:
   - Home: index.md
   - First-time Installation:
     - Meet Mr. Fusion: setup/software.md
-    - Keyboard and Gamepads: setup/controls.md
     - Connect to WiFi: setup/wifi.md
-    - Using Bluetooth: setup/bluetooth.md
     - Running the Updater: setup/updater.md
-    - Hotkey Reference: setup/hotkey.md
-  - Setting Up:
+  - The Basics:
     - Keyboards and Controllers: basics/input.md
+    - Using Bluetooth: basics/bluetooth.md
     - Game Storage and Organizing: basics/games.md
+    - Hotkey Reference: basics/hotkey.md
     - Personalizing Your Mister: 
-      - Video Configuratiion: basics/video.md
+      - Video Configuration: basics/video.md
       - Audio Fun: basics/audio.md
   - Cores:
     - What Is a Core?: cores/what.md
