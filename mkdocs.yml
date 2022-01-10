@@ -59,8 +59,9 @@ nav:
   - Home: index.md
   - First-time Installation:
     - Meet Mr. Fusion: setup/software.md
-    - Connect to WiFi: setup/wifi.md
     - Running the Updater: setup/updater.md
+    - Define Your Gamepad: setup/controller.md
+    - Connect to WiFi: setup/wifi.md
   - The Basics:
     - Keyboards and Controllers: basics/input.md
     - Using Bluetooth: basics/bluetooth.md
