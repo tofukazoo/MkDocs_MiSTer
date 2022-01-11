@@ -61,6 +61,7 @@ nav:
     - Running the Updater: setup/updater.md
     - Define Your Gamepad: setup/controller.md
     - Connect to WiFi: setup/wifi.md
+    - Let's play!: setup/play.md
   - The Basics:
     - Keyboards and Controllers: basics/input.md
     - Using Bluetooth: basics/bluetooth.md
