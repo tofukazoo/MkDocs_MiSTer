@@ -55,16 +55,17 @@ extra:
     
 nav:
   - Home: index.md
+
   - First-time Setup:
     - Requirements: setup/requirements.md
     - Setup MicroSD Card: setup/software.md
     - Running the Updater: setup/updater.md
     - Define Your Gamepad: setup/controller.md
-    - Connect to WiFi: setup/wifi.md
-    - Transferring Games: basics/games.md
+    - Transferring Games: setup/games.md
     - Play a Game: setup/play.md
 
   - The Basics:
+    - WiFi: basics/wifi.md
     - Controllers: basics/input.md
     - Bluetooth: basics/bluetooth.md
     - Hotkeys: basics/hotkey.md
@@ -95,6 +96,7 @@ nav:
     - Audio Filters: basics/audio.md
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
+
   - MiSTer Developer Reference:
     - Core Configuration String: developer/conf_str.md
     - Good Luck!: developer/goodluck.md
