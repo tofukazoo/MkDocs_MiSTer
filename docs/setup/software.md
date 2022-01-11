@@ -1,4 +1,4 @@
-# Meet Mr. Fusion
+# Installing the Software
 
 First thing to do is to install the software onto your MicroSD card.
 
