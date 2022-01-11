@@ -55,21 +55,20 @@ extra:
     
 nav:
   - Home: index.md
-  - Why MiSTer?: why-mister.md
-  - First-time Installation:
-    - Meet Mr. Fusion: setup/software.md
+  - First-time Setup:
+    - Requirements: setup/requirements.md
+    - Setup MicroSD Card: setup/software.md
     - Running the Updater: setup/updater.md
     - Define Your Gamepad: setup/controller.md
     - Connect to WiFi: setup/wifi.md
-    - Let's play!: setup/play.md
+    - Play a Game: setup/play.md
   - The Basics:
-    - Keyboards and Controllers: basics/input.md
-    - Using Bluetooth: basics/bluetooth.md
-    - Game Storage and Organizing: basics/games.md
-    - Hotkey Reference: basics/hotkey.md
-    - Personalizing Your Mister:
-      - Video Configuration: basics/video.md
-      - Audio Filters: basics/audio.md
+    - Controllers: basics/input.md
+    - Bluetooth: basics/bluetooth.md
+    - Transferring Games: basics/games.md
+    - Hotkeys: basics/hotkey.md
+    - Video Configuration: basics/video.md
+    
   - Cores:
     - What Is a Core?: cores/what.md
     - Core Highlights:
@@ -91,6 +90,7 @@ nav:
     - Video:
       - Video Filters: advanced/video.md
       - Using Your CRT With MiSTer: advanced/crt.md
+    - Audio Filters: basics/audio.md
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
   - MiSTer Developer Reference:

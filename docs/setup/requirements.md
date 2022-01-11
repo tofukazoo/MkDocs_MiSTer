@@ -1,0 +1,1 @@
+There are a few things you will need in order to setup the MiSTer.
