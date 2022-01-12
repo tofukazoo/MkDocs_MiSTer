@@ -1,1 +1,0 @@
-Computer cores in a list with links to the github page for the core

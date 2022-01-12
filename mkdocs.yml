@@ -72,20 +72,19 @@ nav:
     - Video Configuration: basics/video.md
 
   - Cores:
-    - What Is a Core?: cores/what.md
-    - Core Highlights:
-      - SNES: cores/highlights/snes.md
-      - NES: cores/highlights/nes.md
-      - Genesis: cores/highlights/genesis.md
-      - TurboGrafx-16: cores/highlights/tgfx16.md
-      - Laser 310: cores/highlights/laser.md
-      - Jupiter Ace: cores/highlights/ace.md
-      - Atari 7800: cores/highlights/atari.md
-      - Game Boy 2 Player: cores/highlights/gb2p.md
-    - Arcade Cores: cores/arcade.md
-    - Computer Cores: cores/computer.md
-    - Console Cores: cores/consoles.md
-    
+    - What Is a Core: cores/what.md
+    - Console:
+      - SNES: cores/console/snes.md
+      - NES: cores/console/nes.md
+      - Genesis: cores/console/genesis.md
+      - TurboGrafx-16: cores/console/tgfx16.md
+      - Atari 7800: cores/console/atari.md
+      - Game Boy 2 Player: cores/console/gb2p.md
+    - Computer:
+      - Laser 310: cores/computer/laser.md
+      - Jupiter Ace: cores/computer/ace.md
+    - Arcade:
+
   - Tweaking and Advanced Configuration:
     - Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
@@ -93,7 +92,7 @@ nav:
     - Video:
       - Video Filters: advanced/video.md
       - Using Your CRT With MiSTer: advanced/crt.md
-    - Audio Filters: basics/audio.md
+    - Audio Filters: advanced/audio.md
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
 
