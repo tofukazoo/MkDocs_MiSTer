@@ -31,4 +31,8 @@ At a minimum, the [MakerSpot Micro USB OTG Hub](https://www.amazon.com/MakerSpot
 
 **Cooling:**
 
-The SoC FPGA chip on the DE10-Nano is 21.5mm x 21.5mm so a heatsink that is around this size is suitable. If using one larger than these dimensions, please make sure to use care to not let the heatsink touch other electronic components around 
+The processor on the DE10-Nano is 21.5mm x 21.5mm so a heatsink that is around this size is suitable. If using one larger than these dimensions, please make sure to use care to not let the heatsink touch other electronic components outside the processor.
+
+There is no mounting mechanism for the heatsink, you will need to use an "adhesive thermal pad". 3M makes some good ones, and the heatsinks you can buy in this size usually come with these kinds of thermal pads already.
+
+Do not apply a lot of pressure and do not touch the components directly with your fingers, as static shock can damage them.
