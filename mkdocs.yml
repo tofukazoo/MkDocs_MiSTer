@@ -73,18 +73,15 @@ nav:
 
   - Cores:
     - What Is a Core: cores/what.md
-    - Console:
-      - SNES: cores/console/snes.md
-      - NES: cores/console/nes.md
-      - Genesis: cores/console/genesis.md
-      - TurboGrafx-16: cores/console/tgfx16.md
-      - Atari 7800: cores/console/atari7800.md
-      - Game Boy 2 Player: cores/console/gb2p.md
-    - Computer:
-      - Laser 310: cores/computer/laser.md
-      - Jupiter Ace: cores/computer/ace.md
-    - Arcade:
-      - Atari Subs: cores/arcade/arcade-subs.md
+    - Core Highlights:
+      - SNES: cores/highlights/snes.md
+      - NES: cores/highlights/nes.md
+      - Genesis: cores/highlights/genesis.md
+      - TurboGrafx-16: cores/highlights/tgfx16.md
+      - Atari 7800: cores/highlights/atari7800.md
+      - Game Boy 2 Player: cores/highlights/gb2p.md
+      - Laser 310: cores/highlights/laser.md
+      - Jupiter Ace: cores/highlights/ace.md
 
   - Tweaking and Advanced Configuration:
     - Networking:
