@@ -84,7 +84,7 @@ nav:
       - Laser 310: cores/computer/laser.md
       - Jupiter Ace: cores/computer/ace.md
     - Arcade:
-      - Atari Subs: cores/arcade/arcade-subs.md
+      - Atari Subs:
 
   - Tweaking and Advanced Configuration:
     - Networking:
