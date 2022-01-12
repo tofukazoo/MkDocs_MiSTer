@@ -1,11 +1,4 @@
-# Installing the Software
-
 First thing to do is to install the software onto your MicroSD card.
-
-**Requirements:**
-
-* A MicroSD card (preferably 4GB minimum)
-* A keyboard
 
 ## Flash Mr. Fusion to your MicroSD
 
