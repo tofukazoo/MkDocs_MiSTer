@@ -83,6 +83,8 @@ nav:
       - Laser 310: cores/highlights/laser.md
       - Jupiter Ace: cores/highlights/ace.md
     - Console Cores: cores/console.md
+    - Computer Cores: cores/computer.md
+    - Arcade Cores: cores/arcade.md
 
   - Tweaking and Advanced Configuration:
     - Networking:
@@ -95,7 +97,7 @@ nav:
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
 
-  - MiSTer Developer Reference:
+  - Developer Reference:
     - Core Configuration String: developer/conf_str.md
     - Good Luck!: developer/goodluck.md
 
