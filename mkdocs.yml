@@ -82,6 +82,7 @@ nav:
       - Game Boy 2 Player: cores/highlights/gb2p.md
       - Laser 310: cores/highlights/laser.md
       - Jupiter Ace: cores/highlights/ace.md
+    - Console Cores: cores/console.md
 
   - Tweaking and Advanced Configuration:
     - Networking:
