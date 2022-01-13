@@ -1,7 +1,5 @@
 There are a few things you will need in order to setup your MiSTer:
 
-## Requirements
-
 * Terasic DE10-Nano
 * MiSTer SDRAM Add-On Board (Optional but many cores require it)
 * Cooling for the FPGA (Highly recommended)
