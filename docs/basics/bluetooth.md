@@ -1,0 +1,1 @@
+Bluetooth adapter recommendations, caveats for compatibility, demonstrate how to pair via the built-in pairing system with the keyboard instead of the script (which currently isn't working well apparently).

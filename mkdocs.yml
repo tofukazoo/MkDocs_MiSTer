@@ -7,8 +7,8 @@ site_description: >-
   modern hardware.
 
 repo_name: MkDocs_MiSTer
-repo_url: https://github.com/tofukazoo/MkDocs_MiSTer/
-edit_uri: edit/main2/docs/
+repo_url: https://github.com/birdybro/MkDocs_MiSTer/
+edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2022 MiSTer FPGA
 
@@ -17,13 +17,15 @@ theme:
   favicon: assets/favicon.ico
   logo: assets/mister_kun_bw.svg
   font:
-    text: Noto Sans JP
+    text: Roboto
     code: Source Code Pro
   features:
   # Highlight search terms when user searches for things
     - search.highlight
   # Offer most likely search result as a suggestion
     - search.suggest
+  # Update url with the active anchor as highlighted in ToC
+    - navigation.tracking
   # Future use for announcement hook to put latest news here, like latest core updates, etc...
   custom_dir: overrides
   
@@ -33,6 +35,8 @@ plugins:
       lang: en
   - minify:
       minify_html: true
+  - mkdocs-video
+  - git-revision-date-localized
 
 # Customization
 extra:
@@ -51,35 +55,50 @@ extra:
     
 nav:
   - Home: index.md
-  - First-time Installation:
-    - Meet Mr. Fusion: setup/software.md
-    - Setting up WiFi, Bluetooth, Keyboard: setup/hardware.md
+
+  - First-time Setup:
+    - Requirements: setup/requirements.md
+    - Setup MicroSD Card: setup/software.md
     - Running the Updater: setup/updater.md
-    - Hotkey Reference: setup/hotkey.md
-  - Setting Up:
-    - Keyboards and Controllers: basics/input.md
-    - Game Storage and Organizing: basics/games.md
-    - Personalizing Your Mister: 
-      - Video Configuratiion: basics/video.md
-      - Audio Fun: basics/audio.md
+    - Define Your Gamepad: setup/controller.md
+    - Transferring Games: setup/games.md
+    - Play a Game: setup/play.md
+
+  - The Basics:
+    - WiFi: basics/wifi.md
+    - Controllers: basics/input.md
+    - Bluetooth: basics/bluetooth.md
+    - Hotkeys: basics/hotkey.md
+    - Video Configuration: basics/video.md
+
   - Cores:
-    - What Is a Core?: cores/what.md
+    - What Is a Core: cores/what.md
     - Core Highlights:
+      - SNES: cores/highlights/snes.md
+      - NES: cores/highlights/nes.md
+      - Genesis: cores/highlights/genesis.md
+      - TurboGrafx-16: cores/highlights/tgfx16.md
+      - Atari 7800: cores/highlights/atari7800.md
+      - Game Boy 2 Player: cores/highlights/gb2p.md
       - Laser 310: cores/highlights/laser.md
       - Jupiter Ace: cores/highlights/ace.md
-      - Atari 7800: cores/highlights/atari.md
+    - Console Cores: cores/console.md
+    - Computer Cores: cores/computer.md
     - Arcade Cores: cores/arcade.md
-    - Console Cores: cores/consoles.md
+
   - Tweaking and Advanced Configuration:
     - Networking:
       - Setting Up SSH, FTP, and NAS: advanced/network.md
-      - Computer Cores: advanced/computer.md
+      - Computer Core Networking: advanced/computer.md
     - Video:
       - Video Filters: advanced/video.md
       - Using Your CRT With MiSTer: advanced/crt.md
+    - Audio Filters: advanced/audio.md
     - Global INI Settings: advanced/global.md
     - Cheat Engine: advanced/cheats.md
-  - MiSTer Developer Reference:
+
+  - Developer Reference:
+    - Core Configuration String: developer/conf_str.md
     - Good Luck!: developer/goodluck.md
 
 markdown_extensions:

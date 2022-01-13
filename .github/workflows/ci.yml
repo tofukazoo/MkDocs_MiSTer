@@ -1,19 +1,34 @@
-name: ci 
+name: ci
 on:
   push:
-    branches: 
-      - master
-      - main2
+    branches:
+      - main
+
 jobs:
   deploy:
+    name: Build documentation
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python runtime
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material 
-      - run: pip install mkdocs-minify-plugin
-      - run: pip install mkdocs-redirects
-      - run: mkdocs gh-deploy --force
 
+      - name: Install Python Dependencies
+        run: |
+          pip install \
+          mkdocs \
+          mkdocs-material \
+          mkdocs-minify-plugin \
+          mkdocs-redirects \
+          mkdocs-video \
+          mkdocs-git-revision-date-localized-plugin
+
+      - name: Deploy Documentation
+        run: |
+          mkdocs gh-deploy --force
