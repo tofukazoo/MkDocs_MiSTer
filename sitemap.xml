@@ -2,122 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.misterfpga.org/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/why-mister/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/advanced/audio/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/advanced/cheats/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/advanced/computer/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/advanced/crt/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/advanced/global/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/advanced/network/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/advanced/video/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/basics/audio/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/basics/bluetooth/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/basics/games/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/basics/hotkey/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/basics/input/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/basics/video/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/basics/wifi/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/cores/arcade/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/cores/consoles/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/cores/computer/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/cores/console/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/cores/what/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/cores/highlights/ace/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/cores/highlights/atari/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/cores/highlights/atari7800/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/cores/highlights/gb2p/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/cores/highlights/genesis/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/cores/highlights/laser/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/cores/highlights/nes/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/cores/highlights/snes/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/cores/highlights/tgfx16/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/developer/conf_str/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/developer/goodluck/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/setup/first-setup/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/setup/controller/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/setup/hardware/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/setup/games/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.misterfpga.org/setup/hotkey/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <loc>https://docs.misterfpga.org/setup/play/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.misterfpga.org/setup/requirements/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/setup/software/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.misterfpga.org/setup/updater/</loc>
-         <lastmod>2022-01-09</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
