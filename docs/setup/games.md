@@ -10,9 +10,15 @@ The MiSTer comes setup with a Samba server already. This means you can connect t
 
 ![MiSTer FPGA Samba Server File Explorer](img/samba.png)
 
+In this case I'm going to transfer some ROMs to the `/games/NES/` folder so I can use them with the NES core.
+
+![ROM Transfer to MiSTer FPGA folder from Windows](img/rom-transferred.png)
+
 ## Transfer ROMs to the MicroSD directly
 
 You can also turn off the MiSTer, remove the MicroSD and plug it into your computer to transfer roms. It will have an exFAT formatted partition named "MiSTer" that most operating systems can work with.
+
+After this is done you can proceed to the next step since we are going to [Play a Game](play.md).
 
 ## File Formats
 
